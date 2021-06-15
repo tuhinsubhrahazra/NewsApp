@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "331343013388",
+    "project_id": "newsus-54f11",
+    "storage_bucket": "newsus-54f11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331343013388:android:b252ede766ce898f003029",
+        "android_client_info": {
+          "package_name": "com.tuhin.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331343013388-e1m9vlid6sg8stf9h134j317348hudo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiiR44ZIFZNMcV5oj9OQiZ_hQgclhQ9lE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331343013388-e1m9vlid6sg8stf9h134j317348hudo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
