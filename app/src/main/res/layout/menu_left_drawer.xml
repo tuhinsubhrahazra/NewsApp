@@ -18,13 +18,11 @@
             android:padding="10dp"
             android:src="@drawable/newsicon"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
             android:layout_gravity="center_vertical"
-            android:fontFamily="@font/aclonica"
-            android:text="Newsus"
-            android:textSize="20sp" />
+            android:src="@drawable/iconname"/>
 
     </LinearLayout>
 

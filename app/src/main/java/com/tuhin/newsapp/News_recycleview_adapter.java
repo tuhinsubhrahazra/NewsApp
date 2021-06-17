@@ -16,6 +16,8 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.TransitionOptions;
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 import java.util.ArrayList;
 
@@ -43,6 +45,7 @@ public class News_recycleview_adapter extends RecyclerView.Adapter<News_recyclev
     @Override
     public void onBindViewHolder(@NonNull News_recycleview_adapter.ViewHolder holder, int position) {
         Glide.with(mContext)
+                .asBitmap()
                 .load(mArraylist.get(position).getUrlToImage())
                 .into(holder.thumble);
 
